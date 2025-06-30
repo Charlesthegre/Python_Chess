@@ -5,6 +5,7 @@ from const import *
 from game import Game
 from square import Square
 from move import Move
+from AI import RandomAI  # <-- Add this line
 
 class Main:
 
@@ -13,6 +14,7 @@ class Main:
         self.screen = pygame.display.set_mode( (WIDTH, HEIGHT) )
         pygame.display.set_caption('Chess')
         self.game = Game()
+        self.ai_enabled = False  # <-- Add this line
 
     def mainloop(self):
         
@@ -20,6 +22,7 @@ class Main:
         game = self.game
         board = self.game.board
         dragger = self.game.dragger
+        ai = RandomAI(board)  # <-- Add this line
 
         while True:
             # show methods
@@ -31,6 +34,19 @@ class Main:
 
             if dragger.dragging:
                 dragger.update_blit(screen)
+
+            # AI move if enabled and it's black's turn
+            if self.ai_enabled and game.next_player == 'black' and not dragger.dragging:
+                piece, move = ai.get_random_move('black')
+                if piece and move:
+                    board.move(piece, move)
+                    board.set_true_en_passant(piece)
+                    captured = board.squares[move.final.row][move.final.col].has_piece()
+                    game.play_sound(captured)
+                    game.show_bg(screen)
+                    game.show_last_move(screen)
+                    game.show_pieces(screen)
+                    game.next_turn()
 
             for event in pygame.event.get():
 
@@ -112,12 +128,18 @@ class Main:
                     if event.key == pygame.K_t:
                         game.change_theme()
 
-                     # changing themes
+                    # reset game
                     if event.key == pygame.K_r:
                         game.reset()
                         game = self.game
                         board = self.game.board
                         dragger = self.game.dragger
+                        ai = RandomAI(board)  # <-- Add this line
+
+                    # toggle AI
+                    if event.key == pygame.K_a:
+                        self.ai_enabled = not self.ai_enabled
+                        print(f"AI {'enabled' if self.ai_enabled else 'disabled'}")
 
                 # quit application
                 elif event.type == pygame.QUIT:
