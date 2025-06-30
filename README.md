@@ -44,9 +44,7 @@ A fully interactive, turn-based chess game built using Python and Pygame. This p
 This project was developed using the **Agile methodology**, allowing for:
 - Iterative development and testing
 - Continuous feedback from stakeholders
-- Flexibility in feature prioritization
-
-Project planning was managed using a Gantt chart and a development logbook. Risks were identified and mitigated through consultation with a client.
+- Flexibility in feature prioritisation
 
 ---
 
@@ -57,14 +55,8 @@ Project planning was managed using a Gantt chart and a development logbook. Risk
 | Python 3.x       | Core programming language      |
 | Pygame           | Game rendering and input       |
 | Git + GitHub     | Version control and collaboration |
-| Sphinx           | Automatic code documentation   |
 | PyInstaller      | Packaging the app for deployment |
 | GitHub Pages     | Hosting documentation          |
-
----
-
-### View Documentation
-[View Sphinx Documentation](https://your-github-username.github.io/chess-game-docs/)
 
 ---
 
@@ -101,9 +93,7 @@ Project planning was managed using a Gantt chart and a development logbook. Risk
 
 ## Project Management
 
-- Gantt chart used to track milestones
 - Logbook maintained for daily progress
-- Risks documented and mitigated with client input
 
 ---
 
