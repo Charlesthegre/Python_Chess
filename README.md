@@ -25,6 +25,21 @@ A fully interactive, turn-based chess game built using Python and Pygame. This p
 - Game reset functionality
 
 ---
+## Screenshots
+
+![Image Alt]()
+
+![Image Alt]()
+
+![Image Alt]()
+
+![Image Alt]()
+
+![Image Alt]()
+
+![Image Alt]()
+
+---
 
 ## Methodology
 
