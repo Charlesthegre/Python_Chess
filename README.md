@@ -29,15 +29,15 @@ A fully interactive, turn-based chess game built using Python and Pygame. This p
 
 ![Image Alt](https://github.com/Charlesthegre/Python_Chess/blob/9aa53e5f5ec0707fdabfc324f9e010dfe8c9bd55/Screenshots/Screenshot_1)
 
-![Image Alt]()
+![Image Alt](https://github.com/Charlesthegre/Python_Chess/blob/f9b60dceaa089c845a0cf074a28bb5edb05a24bb/Screenshots/Screenshot_2)
 
-![Image Alt]()
+![Image Alt](https://github.com/Charlesthegre/Python_Chess/blob/f9b60dceaa089c845a0cf074a28bb5edb05a24bb/Screenshots/Screenshot_3)
 
-![Image Alt]()
+![Image Alt](https://github.com/Charlesthegre/Python_Chess/blob/f9b60dceaa089c845a0cf074a28bb5edb05a24bb/Screenshots/Screenshot_4)
 
-![Image Alt]()
+![Image Alt](https://github.com/Charlesthegre/Python_Chess/blob/f9b60dceaa089c845a0cf074a28bb5edb05a24bb/Screenshots/Screenshot_5)
 
-![Image Alt]()
+![Image Alt](https://github.com/Charlesthegre/Python_Chess/blob/f9b60dceaa089c845a0cf074a28bb5edb05a24bb/Screenshots/Screenshot_6)
 
 ---
 
