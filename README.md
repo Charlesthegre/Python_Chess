@@ -19,8 +19,9 @@ A fully interactive, turn-based chess game built using Python and Pygame. This p
 - Turn-based logic with move validation
 - Visual highlights for valid moves and last move
 - Sound effects for moves and captures
-- Theme switching (light/dark)
-- Game reset functionality
+- Entry point: main.py
+- Press 't' to change theme (green, brown, blue, gray)
+- Press 'r' to restart the game
 
 ---
 ## Screenshots
