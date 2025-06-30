@@ -6,7 +6,7 @@ A fully interactive, turn-based chess game built using Python and Pygame. This p
 
 ## Project Overview
 
-- **Name:** Chess Game
+- **Name:** Python Chess
 - **Language:** Python 3.x
 - **Framework:** Pygame
 - **Version Control:** Git + GitHub
