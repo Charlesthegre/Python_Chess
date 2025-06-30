@@ -64,25 +64,25 @@ Project planning was managed using a Gantt chart and a development logbook. Risk
 
 ## Project Structure
 
-chess-game/
-│
-├── src/                      # Source code
-│   ├── main.py
-│   ├── board.py
-│   └── ...
-│
-├── docs/                     # Sphinx or Doxygen output
-│   └── _build/html/index.html
-│
-├── assets/                   # Images, sounds
-├── dist/                     # Built executables (if any)
-├── .git/                     # Git repository
-├── README.md
-├── CHANGELOG.md
-├── logbook.md
-├── requirements.txt
-├── setup.py
-└── GanttChart.png            # Or .pdf/.xlsx
+- chess-game/
+- │
+- ├── src/                      # Source code
+- │   ├── main.py
+- │   ├── board.py
+- │   └── ...
+- │
+- ├── docs/                     # Sphinx or Doxygen output
+- │   └── _build/html/index.html
+- │
+- ├── assets/                   # Images, sounds
+- ├── dist/                     # Built executables (if any)
+- ├── .git/                     # Git repository
+- ├── README.md
+- ├── CHANGELOG.md
+- ├── logbook.md
+- ├── requirements.txt
+- ├── setup.py
+- └── GanttChart.png            # Or .pdf/.xlsx
 
 ---
 
