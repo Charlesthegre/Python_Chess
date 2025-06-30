@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='chess-game',
+    name='Python_Chess',
     version='1.0.0',
     description='A Python-based chess game with drag-and-drop functionality using Pygame.',
     author='Haydan',
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'chess-game=main:main',
+            'Python_Chess=main:main',
         ],
     },
 )
