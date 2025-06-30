@@ -9,8 +9,6 @@ A fully interactive, turn-based chess game built using Python and Pygame. This p
 - **Name:** Chess Game
 - **Language:** Python 3.x
 - **Framework:** Pygame
-- **Deployment:** Web-accessible via downloadable executable
-- **Documentation:** Auto-generated using Sphinx
 - **Version Control:** Git + GitHub
 
 ---
